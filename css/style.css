@@ -138,3 +138,35 @@
     font-size: 13px;
     color: #777;
 }
+
+@media screen and (max-width: 1400px){
+    .container{
+        max-width: 980px;
+    }
+
+    .header__title,
+    .dream__title{
+        font-size: 45px;
+    }
+
+    .experience__top h2{
+        font-size: 45px;
+    }
+
+    
+    .dream{
+        background: url(../img/dream-bg.png) no-repeat center right / 80px;
+    }
+
+    .experience__bottom{
+        background: url(../img/exp-bg.png) no-repeat center left / 80px;
+    }
+
+    .experience__card{
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        width: calc(50% - 20px);
+        border-left: 6px solid;
+    }
+}
